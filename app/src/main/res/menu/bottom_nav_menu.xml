@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/chat"
+    android:icon="@drawable/message_outline"
+        android:title="Chat"/>
+    <item android:id="@+id/dashboard"
+        android:icon="@drawable/view_dashboard"
+        android:title="All Devices"/>
+    <item android:id="@+id/light"
+        android:icon="@drawable/lamp_outline"
+        android:title="Control Light"/>
+    <item android:id="@+id/music"
+        android:icon="@drawable/music"
+        android:title="Music"/>
+</menu>
