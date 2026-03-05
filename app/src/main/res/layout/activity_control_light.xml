@@ -17,7 +17,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Gia Dinh"
+            android:text="@string/family"
             android:textColor="#ab886d"
             android:textSize="20sp"/>
         <Button
@@ -27,7 +27,8 @@
             android:drawableTop="@drawable/user"
             android:layout_gravity="center"
             app:backgroundTint="@null"
-            android:background="@android:color/transparent"/>
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/user_profile"/>
     </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvRooms"

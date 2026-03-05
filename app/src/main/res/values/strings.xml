@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">smarthomeapp02</string>
+    <string name="family">Gia Dinh</string>
+    <string name="user_profile">User Profile</string>
+    <string name="send_message">Send message</string>
+    <string name="enter_message">Enter message</string>
+    <string name="now_playing">Đang phát: %1$s</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
 </resources>

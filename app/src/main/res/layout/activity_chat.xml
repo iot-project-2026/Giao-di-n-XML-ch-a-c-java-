@@ -17,7 +17,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Gia Dinh"
+            android:text="@string/family"
             android:textColor="#ab886d"
             android:textSize="20sp"/>
         <Button
@@ -27,8 +27,9 @@
             android:drawableTop="@drawable/user"
             android:layout_gravity="center"
             app:backgroundTint="@null"
-            android:background="@android:color/transparent"/>
-    </LinearLayout>S
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/user_profile"/>
+    </LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,21 +49,23 @@
         android:elevation="10dp">
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:hint="enter anything"
+            android:hint="@string/enter_message"
+            android:inputType="text"
             android:padding="12dp"
             android:textSize="20sp"
             android:textColor="#ab886d"
             android:background="@android:color/transparent"/>
         <Button
             android:id="@+id/btnSend"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:background="@drawable/send"
             app:backgroundTint="@null"
-            android:gravity="center" />
+            android:gravity="center"
+            android:contentDescription="@string/send_message"/>
 
     </LinearLayout>
     <com.google.android.material.bottomnavigation.BottomNavigationView

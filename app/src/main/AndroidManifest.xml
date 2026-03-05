@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Smarthomeapp02">
         <activity
+            android:name=".activity_music"
+            android:exported="false" />
+        <service android:name=".MusicServices"/>
+        <activity
             android:name=".activity_control_light"
             android:exported="false" />
         <activity
